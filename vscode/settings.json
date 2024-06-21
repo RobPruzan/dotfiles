@@ -1,0 +1,332 @@
+{
+  // added powermode ext
+
+  // minimizes how often there is an appearance from our little ghost friend!
+
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.largeFileOptimizations": false,
+  "python.defaultInterpreterPath": "/usr/bin/python3",
+  "editor.stickyScroll.enabled": true,
+  "editor.codeActionsOnSave": [
+    "source.addMissingImports",
+    "editor.formatOnSave",
+  ],
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "jspm_packages" : true,
+    "node_modules" : true
+},
+
+  "liveshare.allowGuestDebugControl": true,
+  "liveshare.allowGuestTaskControl": true,
+  "liveshare.languages.allowGuestCommandControl": true,
+  "liveshare.openSharedServers": false,
+  "explorer.compactFolders": false,
+  "breadcrumbs.enabled": false,
+  "editor.fontFamily": "'Monaspace Argon', monospace",
+  "apc.font.family": "Monaspace Argon",
+  "editor.formatOnSave": true,
+  "apc.activityBar": {
+    "position": "bottom",
+    "hideSettings": true,
+    "size": 30
+  },
+
+  "apc.statusBar": {
+    "position": "editor-bottom",
+    "height": 22,
+    "fontSize": 12
+  },
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": 8,
+      "y": 10
+    },
+    "opacity": 0.95,
+    // "transparent": true,
+    // "backgroundColor": "#00000000",
+    // "vibrancy": "ultra-dark"
+  },
+  "apc.header": {
+    "height": 34,
+    "fontSize": 14
+  },
+  "apc.listRow": {
+    "height": 21,
+    "fontSize": 12
+  },
+
+  "editor.fontLigatures": true,
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  // "restoreTerminals.terminals": [
+  //   {
+  //     "splitTerminals": [
+  //       {
+  //         "name": "skynaught",
+  //         "commands": ["source env/bin/activate"]
+  //       }
+  //     ]
+  //   }
+  // ],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // "[typescript]": {
+  //   "editor.defaultFormatter": "biomejs.biome",
+  //   "editor.codeActionsOnSave":[
+  //     "source.organizeImports",
+  //     "source.fixAll",
+  //     "editor.formatOnSave"
+  //   ]
+  // },
+
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    // "editor.codeActionsOnSave": {
+    //   "source.organizeImports": false
+    // },
+    "editor.formatOnSave": true
+  },
+  "python.formatting.provider": "black",
+
+  // "[typescriptreact]": {
+  //   "editor.defaultFormatter": "biomejs.biome",
+  //   "editor.codeActionsOnSave":[
+  //     "source.organizeImports",
+  //     "source.fixAll",
+  //     "editor.formatOnSave"
+  //   ]
+  // },
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Ubuntu-22.04 (WSL)": {
+      "path": "C:\\Windows\\System32\\wsl.exe",
+      "args": ["-d", "Ubuntu-22.04"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Ubuntu-22.04 (WSL)",
+  "terminal.integrated.scrollback": 10000,
+
+  "editor.tabSize": 2,
+
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "remote.SSH.remotePlatform": {
+    "Robby-EC2": "linux"
+  },
+  "metals.javaHome": "/Users/robby/.jabba/jdk/openjdk@1.17.0/Contents/Home",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "editor.accessibilitySupport": "off",
+  "githubPullRequests.terminalLinksHandler": "github",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.fastScrollSensitivity": 50,
+  "terminal.integrated.persistentSessionScrollback": 200,
+  "files.watcherExclude": {
+    "**/.bloop": true,
+    "**/.metals": true,
+    "**/.ammonite": true
+  },
+  "git.autofetch": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": true,
+    "yaml": true,
+    "typescriptreact": false,
+    "typescript": false,
+    "c": true,
+    "rust": false,
+    "python": false,
+    "scala": true,
+    "ocaml": false
+  },
+  "cSpell.userWords": [
+    "bakllava",
+    "bools",
+    "bruh",
+    "clsx",
+    "deduped",
+    "DOWNVOTE",
+    "ELEVENLABS",
+    "Elysia",
+    "frieren",
+    "gojo",
+    "groq",
+    "heappushed",
+    "imageio",
+    "imsave",
+    "makima",
+    "manim",
+    "nobora",
+    "NOVOTE",
+    "openai",
+    "prolly",
+    "Pruzan",
+    "psycopg",
+    "rekt",
+    "simpleaudio",
+    "typebox",
+    "unfollow",
+    "UPVOTE",
+    "urandom",
+    "xaxis",
+    "yaxis",
+    "yoink"
+  ],
+  "workbench.startupEditor": "none",
+  "githubPullRequests.pullBranch": "never",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "totalTypeScript.hideAllTips": false,
+  "totalTypeScript.hideBasicTips": true,
+  "totalTypeScript.hiddenTips": [
+    "passing-generics-to-types",
+    "omit-utility-type",
+    "generic-slots-in-functions",
+    "type-alias-with-generics",
+    "tuple-type",
+    "typeof",
+    "type-alias-with-multiple-generics",
+    "partial-utility-type",
+    "keyof",
+    "conditional-type",
+    "mapped-type",
+    "nested-conditional-type",
+    "never-keyword",
+    "pick-utility-type",
+    "record-utility-type",
+    "exclude-utility-type",
+    "as-const",
+    "as-const-on-object",
+    "in-operator-narrowing",
+    "parameters-utility-type",
+    "returntype-utility-type",
+    "infer",
+    "interface-with-generics",
+    "non-null-expression",
+    "nonnullable-utility-type",
+    "interface-with-multiple-generics",
+    "readonly-utility-type",
+    "type-predicate",
+    "awaited-utility-type"
+  ],
+  "gitlens.views.stashes.files.layout": "tree",
+  "editor.cursorBlinking": "expand",
+  "editor.cursorWidth": 3,
+  "editor.minimap.enabled": false,
+  "[scala]": {
+    "editor.defaultFormatter": "scalameta.metals",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    }
+  },
+  "search.exclude": {
+    "static": true
+  },
+
+  "vscode-pets.theme": "forest",
+  "terminal.integrated.inheritEnv": false,
+  "git.enableSmartCommit": true,
+
+  "cmake.configureOnOpen": true,
+  "editor.minimap.autohide": true,
+  "isort.trace": "off",
+  // "C_Cpp.formatting": "clangFormat",
+  // "C_Cpp.intelliSenseEngine": "Tag Parser",
+  "editor.formatOnSaveMode": "file",
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": true,
+  "[c]": {
+    // "format"
+  },
+
+  "window.commandCenter": false,
+  "breadcrumbs.filePath": "last",
+  "breadcrumbs.symbolPath": "last",
+  "diffEditor.codeLens": true,
+  "diffEditor.experimental.showMoves": true,
+  "editor.quickSuggestionsDelay": 0,
+  "files.readonlyFromPermissions": true,
+  "workbench.reduceMotion": "on",
+  "scm.alwaysShowActions": true,
+  "terminal.integrated.enableImages": true,
+  "problems.defaultViewMode": "table",
+  "window.nativeTabs": true,
+  "playwright.reuseBrowser": false,
+  "playwright.showTrace": false,
+  "[ocaml]": {
+    "editor.defaultFormatter": "ocamllabs.ocaml-platform",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "ocaml-formatter.eval-opam-env":true
+  },
+  "[verilog]": {
+    "editor.defaultFormatter": "mshr-h.veriloghdl",
+    "editor.formatOnSave": true
+  },
+  "multiDiffEditor.experimental.enabled": true,
+  "terminal.integrated.stickyScroll.enabled": true,
+  "editor.inlayHints.enabled": "on",
+  "workbench.editor.showTabs": "none",
+  "gitlens.ai.experimental.provider": "openai",
+  "gitlens.ai.experimental.openai.model": "gpt-4-1106-preview",
+  "update.mode": "default",
+  "[jsonc]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "typescript.tsserver.log": "verbose",
+  "liveshare.featureSet": "insiders",
+  "workbench.colorTheme": "Bearded Theme Monokai Black",
+  "pylint.args": [
+    "\"pylint.args\":[\"--disable\", \"C0116\"]"
+  ],
+  "python.analysis.typeCheckingMode": "strict",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "javascript.inlayHints.parameterTypes.enabled": true,
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "javascript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "rust-analyzer.inlayHints.renderColons": false,
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "prisma.showPrismaDataPlatformNotification": false,
+  "search.quickAccess.preserveInput": true,
+
+  "[swift]": {
+    "editor.defaultFormatter": "sweetpad.sweetpad",
+    "editor.formatOnSave": true
+  }
+}
